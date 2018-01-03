@@ -51,6 +51,7 @@ return [
    */
 
   'webhooks' => [
-
+      'shop/update',
+      'app/uninstalled'
   ]
 ];
