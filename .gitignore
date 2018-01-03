@@ -1,4 +1,6 @@
 /vendor/
-/data/
+/data/*
+!/data/certs
+/data/certs/*
 .env
 /node_modules
