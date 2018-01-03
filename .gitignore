@@ -2,5 +2,6 @@
 /data/*
 !/data/certs
 /data/certs/*
+!/data/certs/.gitkeep
 .env
 /node_modules
