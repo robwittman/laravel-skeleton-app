@@ -51,6 +51,7 @@ class Kernel extends HttpKernel
         'bindings' => \Illuminate\Routing\Middleware\SubstituteBindings::class,
         'can' => \Illuminate\Auth\Middleware\Authorize::class,
         'guest' => \App\Http\Middleware\RedirectIfAuthenticated::class,
+        'jwt' => \App\Http\Middleware\Api\JwtAuthentication::class,
         'shopify.auth' => \App\Http\Middleware\Shopify\Authentication::class,
         'shopify.validate' => \App\Http\Middleware\Shopify\ValidateRequest::class,
         'shopify.charge' => \App\Http\Middleware\Shopify\RequireCharge::class,
